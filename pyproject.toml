@@ -29,8 +29,8 @@ dependencies = [
 	"resampy>=0.2.2,<0.4.3",
 	"scikit-learn",
 	"scipy>=1.4.1",
-	"tensorflow>=2.4.1,<2.15.1; platform_system != 'Darwin' and python_version >= '3.11'",
-	"tensorflow-macos>=2.4.1,<2.15.1; platform_system == 'Darwin' and python_version > '3.11'",
+	"tensorflow>=2.4.1,<=2.19.0; platform_system != 'Darwin' and python_version >= '3.12'",
+	"tensorflow-macos>=2.4.1,<=2.19.0; platform_system == 'Darwin' and python_version > '3.12'",
 	"tflite-runtime; platform_system == 'Linux' and python_version < '3.11'",
 	"typing_extensions",
 ]
