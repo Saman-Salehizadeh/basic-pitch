@@ -30,7 +30,7 @@ dependencies = [
 	"scipy>=1.4.1",
 	"tensorflow>=2.4.1; platform_system != 'Darwin' and python_version >= '3.8'",
 	"tensorflow-macos>=2.4.1; platform_system == 'Darwin' and python_version >= '3.8'",
-	"tflite-runtime; platform_system == 'Linux' and python_version <= '3.12'",
+	"tflite-runtime; platform_system == 'Linux' and python_version < '3.11'",
 	"typing_extensions",
 ]
 
